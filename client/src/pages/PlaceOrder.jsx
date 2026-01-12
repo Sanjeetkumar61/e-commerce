@@ -39,7 +39,6 @@ const PlaceOrder = () => {
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    console.log("Hi");
 
     try {
       let orderItems = [];
