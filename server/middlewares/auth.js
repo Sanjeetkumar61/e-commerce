@@ -7,7 +7,7 @@ const authUser = (req, res, next) => {
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       return res.json({
         success: false,
-        message: "Not Authorized",
+        message: "Not Authorized - Please Login.",
       });
     }
 
