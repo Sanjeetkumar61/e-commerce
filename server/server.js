@@ -21,17 +21,7 @@ connectCloudinary();
 
 // Middlewares
 app.use(express.json());
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "http://localhost:5174",
-      "https://e-commerce-admin-ten-mocha.vercel.app",
-      "https://e-commerce-frontend-five-swart.vercel.app"
-    ],
-    credentials: true,
-  })
-);
+app.use(cors())
 
 
 // Api Endpoints
