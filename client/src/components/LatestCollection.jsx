@@ -48,7 +48,7 @@ const LatestCollection = () => {
 
   useEffect(() => {
     if (products.length) {
-      setLatestProducts(products.slice(0, 10));
+      setLatestProducts(products.slice().reverse().slice(0,15));
     }
   }, [products]);
 
