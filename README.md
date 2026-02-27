@@ -29,7 +29,6 @@ Admins can manage products and orders through a protected admin dashboard.
 - Bcrypt.js
 - Multer (Image Upload)
 
----
 
 ## User Features
 
